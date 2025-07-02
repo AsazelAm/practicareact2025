@@ -1,5 +1,15 @@
+**Para que el proyecto funcione correctamente** en otra computadora sin la carpeta node_modules, solo necesitas ejecutar el siguiente comando en la raíz del proyecto (donde está el archivo package.json):
+
+npm install
+
+Esto descargará e instalará todas las dependencias listadas en el archivo package.json. Luego, puedes iniciar el proyecto con:
+
+npm start
+
+Así tendrás el entorno listo y funcionando igual que en tu máquina original.
+
+
 # Getting Started with Create React App
-git remote add origin git@asaf:AsazelAm/practicareact2025.git
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
