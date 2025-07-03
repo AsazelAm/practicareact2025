@@ -1,7 +1,8 @@
-import "./Blog.css";
-import imagen1 from './Img/default.jpg';
+import "./Blog.css"; //Importa los estilos css especificos
+import imagen1 from './Img/default.jpg';//importa las imagenes como modulos.React las trata como variables, no como rutas de texto
 import imagen2 from './Img/Screenshot_20241108_110412.jpg';
-export const Blog=()=>{
+
+export const Blog=()=>{ //El componente Blog es esportado desde Blog.js
     return(
         <div className='container'>
             <div className="row">
@@ -13,7 +14,7 @@ export const Blog=()=>{
                     <h4>Facebook</h4>
                     <div className="border border-2 p-3 w-75">
                         <h5 className="bg-info"><b className="text-white">Facebook</b></h5>
-                        <img src={imagen1} alt="Imagen 1"></img>   
+                        <img src={imagen1} alt="Imagen 1"></img> {/*Usa la variable importada no una ruta de texto */}
                         <div className="txtP"> 
                             <p className="text-muted">Nombre:</p>
                             <p className="text-black">Asaf Guillermo Ajoruro Mullisaca</p>    

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom" //NavLink es especifico de React Router 
 
 class Navbar extends Component {
     render (){
@@ -20,6 +20,7 @@ class Navbar extends Component {
                             </NavLink>
                             </li>
                             <li className="nav-item">
+                            {/*NavLink en ves de a y to enves de href , especifica la ruta a la q va a navegar, el exact: hace q el enlace solo este activo cuando la ruta concida exactamente */}
                             <NavLink className="nav-link" to="/features" exact>Features
                             </NavLink></li>
                             <li className="nav-item">
