@@ -17,7 +17,7 @@ export const Blog=()=>{ //El componente Blog es esportado desde Blog.js
                         <img src={imagen1} alt="Imagen 1"></img> {/*Usa la variable importada no una ruta de texto */}
                         <div className="txtP"> 
                             <p className="text-muted">Nombre:</p>
-                            <p className="text-black">Asaf Guillermo Ajoruro Mullisaca</p>    
+                            <p className="text-black">Nicolas Rojas</p>    
                         </div> 
                     </div> 
                 </div>
